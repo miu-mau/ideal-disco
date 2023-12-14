@@ -43,26 +43,16 @@ body{
     grid-template-columns: repeat(2, 2fr);
     height: 700px;
 }
-.m-6{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    height: 400px;
-    background-color: #000000;
-}
-.m-7{
-    display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    height: 400px;
-    background-color: #000000;
-}
 .m-5{
     display: grid;
-    grid-template-columns: 5fr;
-    height: 200px;
+    grid-template-rows: 1fr 2fr 1fr 50px;
+    height: 1200px;
     position: relative;
-    background-color: #000000;
-    top: 100px;
-    position: relative;
+    top: 50px;
+}
+.pict{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
 }
 .txt{
     font-size: 75px;
@@ -204,12 +194,12 @@ p{
 }
 .pol{
     height: 8px;
-    width: 700px;
-    position: relative;
+    width: 740px;
+    position: absolute;
     background-color: #6b7a64;
     border-radius: 20px;
-    top: -23px;
     left: -40px;
+    top: -2px;
 }
 .flower{
     height: 20px;
@@ -326,8 +316,51 @@ p{
     top: -20px;
     left: 50px;
 }
-.boo{
-    height: 500px;
-    width: 100%;
+.word{
+    font-size: 28px;
+    color: #6b7a64;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.picc{
+    width: 610px;
+    height: 600px;
     background-image: url(13.jpg);
+    border-radius:20px;
+}
+.picc-1{
+    width: 610px;
+    height: 600px;
+    background-image: url(14.jpg);
+    border-radius:20px;
+}
+.picc-2{
+    width: 610px;
+    height: 600px;
+    background-image: url(15.jpg);
+    border-radius:20px;
+}
+.a{
+    height: 1fr;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.lala{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    color: #ca7d39;
+}
+.a{
+   height: 280px;
+   width: 99%;
+   background-color: #5c7c51;
+   background-image: url(16.jpg);
+   position: relative;
+   border-radius:20px;
+   top: 10px;
 }
