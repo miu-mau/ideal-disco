@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=DM+Serif+Display&family=Playfair+Display:wght@500&display=swap');
 
 html, body{
@@ -45,14 +46,24 @@ body{
 }
 .m-5{
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr 50px;
-    height: 1200px;
-    position: relative;
+    grid-template-rows: 1fr 2fr 2fr 50px;
+    height: 1300px;
     top: 50px;
+}
+.m-6{
+    height: 800px;
+    top: 200px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    position: relative;
 }
 .pict{
     display: grid;
     grid-template-columns: repeat(3, 4fr);
+}
+.pict-1{
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);    
 }
 .txt{
     font-size: 75px;
@@ -63,8 +74,7 @@ body{
     text-align: center;
     color: #65954f;
     padding: 40px;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; 
+
 }
 .txt-2:hover{
     color: #313a2d;
@@ -74,8 +84,6 @@ body{
     text-align: center;
     color: #7c0909;
     padding: 40px;
-    -webkit-transition: all 0.5s ease;
-    transition: all 0.5s ease; 
 }
 .txt-2-1:hover{
     color: #ca7d39;
@@ -93,14 +101,6 @@ body{
     font-size: 40px;
     font-weight: bold;
     padding: 100px 30px 0;
-}
-.txt-6{
-    color: #5c7c51;
-    font-size: 28px;
-    font-weight: bold;
-    position: relative;
-    top: -180px;
-    left: 230px;
 }
 p{
     color: #7c0909;
@@ -192,47 +192,7 @@ p{
     position: relative;
     top: 20px;
 }
-.pol{
-    height: 8px;
-    width: 740px;
-    position: absolute;
-    background-color: #6b7a64;
-    border-radius: 20px;
-    left: -40px;
-    top: -2px;
-}
-.flower{
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    background-color: #f1aad8;
-    border-radius: 100px 100px 100px 0px;   
-    left: 20px;
-}
-.flower-2{
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    background-color: #c66e97;
-    border-radius: 0px 100px 100px 100px;  
-    left: 20px;
-    top: 20px;
-}
-.flower-3{
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    background-color: #ca7cb4;
-    border-radius: 100px 0px 100px 100px;  
-    top: 20px;
-}
-.flower-4{
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    background-color: #e09fd3;
-    border-radius: 100px 100px 0px 100px; 
-}
+
 .b-5{
     width: 200px;
     height: 200px;
@@ -246,76 +206,7 @@ p{
     top: 160px;
     position: relative;
 }
-.f{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 680px;
-}
-.f-1{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 610px;
-}
-.f-2{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 540px;
-}
-.f-3{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 470px;
-}
-.f-4{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 400px;
-}
-.f-5{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 330px;
-}
-.f-6{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 260px;
-}
-.f-7{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 190px;
-}
-.f-8{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 120px;
-}
-.f-9{
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: -20px;
-    left: 50px;
-}
+
 .word{
     font-size: 28px;
     color: #6b7a64;
@@ -363,4 +254,58 @@ p{
    position: relative;
    border-radius:20px;
    top: 10px;
+}
+.picc-1-1{
+    width: 610px;
+    height: 600px;
+    background-image: url(6.jpg);   
+    border-radius:20px;
+    position: relative;
+    top: 3px;
+}
+.picc-1-2{
+    width: 610px;
+    height: 600px;
+    background-image: url(5.jpg);
+    border-radius:20px;
+    position: relative;
+    top: 3px;
+}
+.picc-2-1{
+    width: 610px;
+    height: 600px;
+    background-image: url(7.jpg);
+    border-radius:20px;
+    position: relative;
+    top: 3px;
+}
+.la{
+    height: 700px;
+    background-image: url(16.jpg);
+    border-radius: 15px; 
+    position: relative;
+    top: 40px;
+}
+.txt-6{
+    font-size: 26px;
+    position: absolute;
+    color: #c26496;
+    top: 200px;
+    left: 40px;
+}
+.l{
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    color: #edbed7;
+    top: 100px;
+    left: 40px;
+}
+.flower{
+    height: 250px;
+    width: 250px;
+    background-image: url(9.jpg);   
+    position: relative;
+    top: 520px;
+    right: -60px;
 }
