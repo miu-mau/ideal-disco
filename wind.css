@@ -19,7 +19,6 @@ body{
     font-size: 21px;
     background-color: #ffffff; 
 }
-
 .m-1{
     display: grid;
     grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -56,6 +55,12 @@ body{
     display: grid;
     grid-template-columns: 2fr 4fr;
     position: relative;
+}
+.m-7{
+    height: 750px;
+    top: 460px;
+    position: relative;
+    background-image: url(17.jpg);  
 }
 .pict{
     display: grid;
@@ -243,8 +248,9 @@ p{
 .lala{
     position: relative;
     text-align: center;
-    top: 10px;
-    color: #ca7d39;
+    top: 15px;
+    color: #a1495c;
+    font-size: 30px;
 }
 .a{
    height: 280px;
@@ -261,7 +267,7 @@ p{
     background-image: url(6.jpg);   
     border-radius:20px;
     position: relative;
-    top: 3px;
+    top: 20px;
 }
 .picc-1-2{
     width: 610px;
@@ -269,7 +275,7 @@ p{
     background-image: url(5.jpg);
     border-radius:20px;
     position: relative;
-    top: 3px;
+    top: 20px;
 }
 .picc-2-1{
     width: 610px;
@@ -277,7 +283,7 @@ p{
     background-image: url(7.jpg);
     border-radius:20px;
     position: relative;
-    top: 3px;
+    top: 20px;
 }
 .la{
     height: 700px;
@@ -306,6 +312,53 @@ p{
     width: 250px;
     background-image: url(9.jpg);   
     position: relative;
-    top: 520px;
-    right: -60px;
+    top: 430px;
+    right: -180px;
+}
+.a-1{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url(18.jpg); 
+    top: 40px;
+    left: 150px; 
+}
+.a-2{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-image: url(19.jpg); 
+    left: 1300px;
+    top: -160px;
+}
+.a-3{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url(20.jpg); 
+    top: 180px;
+    left: 60px;
+}
+.a-4{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url(21.jpg); 
+    left: 1260px;
+    top: -20px;
+}
+.txt-7{
+    color: #6b7a64;
+    font-size: 36px;
+    top: -40px;
+    left: 720px;
+    font-weight: bold;
+    position: absolute;
+}
+.aaa{
+    width: 1945px;
+    height: 50px;
+    background-color: #ffffff;
+    top:-45px;
+    position:absolute;
 }
