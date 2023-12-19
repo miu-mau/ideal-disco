@@ -110,7 +110,7 @@ body{
 p{
     color: #7c0909;
     font-size: 30px;
-    top: -45px;
+    text-align: center;
     position: relative;
 
 }
@@ -350,7 +350,7 @@ p{
 .txt-7{
     color: #6b7a64;
     font-size: 36px;
-    top: -40px;
+    top: -120px;
     left: 720px;
     font-weight: bold;
     position: absolute;
