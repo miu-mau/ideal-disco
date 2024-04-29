@@ -1,0 +1,364 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=DM+Serif+Display&family=Playfair+Display:wght@500&display=swap');
+
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Alice', serif;
+    font-family: 'DM Serif Display', serif;
+
+}
+body{
+    background-color: #ffffff;
+    position: absolute; 
+    top: 0; 
+    width: 100%;
+}
+.em{
+    padding: 20px 35px;
+    font-size: 21px;
+    background-color: #ffffff; 
+}
+.m-1{
+    display: grid;
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.m-2{
+    display: grid;
+    grid-template-columns: 4fr;
+    height: 500px;
+}
+.m-3{
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    height: 20px;
+}
+.m-4{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    height: 700px;
+}
+.m-5{
+    display: grid;
+    grid-template-rows: 1fr 2fr 2fr 50px;
+    height: 1300px;
+    top: 50px;
+}
+.m-6{
+    height: 800px;
+    top: 200px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    position: relative;
+}
+.m-7{
+    height: 750px;
+    top: 460px;
+    position: relative;
+    background-image: url(17.jpg);  
+}
+.pict{
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+}
+.pict-1{
+    display: grid;
+    grid-template-columns: repeat(3, 5fr);    
+}
+.txt{
+    font-size: 75px;
+    color: #7c0909;
+}
+.txt-2{
+    font-size: 28px;
+    text-align: center;
+    color: #65954f;
+    padding: 40px;
+
+}
+.txt-2:hover{
+    color: #313a2d;
+}
+.txt-2-1{
+    font-size: 28px;
+    text-align: center;
+    color: #7c0909;
+    padding: 40px;
+}
+.txt-2-1:hover{
+    color: #ca7d39;
+}
+.txt-3{
+    position: absolute;
+    top: 190px;
+    left: 500px;
+    font-weight: bold;
+    font-size: 60px;
+    color: #e9cdcd; 
+}
+.txt-5{
+    color: #bb5757;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 100px 30px 0;
+}
+p{
+    color: #7c0909;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    left: -65px;
+
+}
+.music{
+    font-size: 20px;
+    font-weight: normal;
+    color: #668558;
+}
+.music-1{
+    font-size: 20px;
+    font-weight: normal;
+    color: #668558;
+    position: relative;
+    top: -160px;
+    left: 230px;
+}
+.box{
+    height: 500px;
+    width: 100%;
+    border-radius: 10px;
+    transition: background-image 0.5s ease;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.box:hover{
+    background-image: url(12.jpg);
+}
+.box-1{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    padding: 90px;
+}
+.b{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image:url(11.jpg);
+    top: 15px;
+}
+.b-1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image:url(0.jpg);
+    top: 200px;
+    left: 200px;
+}
+.b-2{
+    position: absolute;
+    width: 150px;
+    height: 250px;
+    top: 220px;
+    left: 100px;
+    background-image:url(2.jpg);   
+    border-radius: 5px;
+    background-size: cover;
+    transition: background-image 0.5s ease;
+}
+.b-2:hover{
+    background-image: url(4.jpg);
+}
+.b-3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-image:url(3.jpg);
+    top: 350px;
+    left: 100px;
+}
+.go{
+    font-size: 16px;
+    position: relative;
+    top: -30px;
+    color: #bb5757;
+}
+.pic{
+    /* background-image:url(3.jpg); */
+    width: 200px;
+    height: 200px;
+    background-color: #668558;
+    position: relative;
+    top: 20px;
+}
+
+.b-5{
+    width: 200px;
+    height: 200px;
+    background-image: url(6.jpg);
+    position: relative;
+    top: 20px;
+}
+.box-2{
+    width: 550px;
+    height: 300px;
+    top: 160px;
+    position: relative;
+}
+
+.word{
+    font-size: 28px;
+    color: #6b7a64;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+}
+.picc{
+    width: 450px;
+    height: 450px;
+    background-image: url(13.jpg);
+    border-radius:20px;
+}
+.picc-1{
+    width: 450px;
+    height: 450px;
+    background-image: url(14.jpg);
+    border-radius:20px;
+}
+.picc-2{
+    width: 450px;
+    height: 450px;
+    background-image: url(15.jpg);
+    border-radius:20px;
+}
+.a{
+    height: 1fr;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+.lala{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    color: #a1495c;
+    font-size: 30px;
+}
+.a{
+   height: 280px;
+   width: 99%;
+   background-color: #5c7c51;
+   background-image: url(16.jpg);
+   position: relative;
+   border-radius:20px;
+   top: 10px;
+}
+.picc-1-1{
+    width: 450px;
+    height: 450px;
+    background-image: url(6.jpg);   
+    border-radius:20px;
+    position: relative;
+    top: 1px;
+}
+.picc-1-2{
+    width: 450px;
+    height: 450px;
+    background-image: url(5.jpg);
+    border-radius:20px;
+    position: relative;
+    top: 1px;
+}
+.picc-2-1{
+    width: 450px;
+    height: 450px;
+    background-image: url(7.jpg);
+    border-radius:20px;
+    position: relative;
+    top: 1px;
+}
+.la{
+    height: 700px;
+    background-image: url(16.jpg);
+    border-radius: 15px; 
+    position: relative;
+    top: 40px;
+}
+.txt-6{
+    font-size: 24px;
+    position: absolute;
+    color: #c26496;
+    top: 200px;
+    left: 40px;
+}
+.l{
+    font-size: 60px;
+    font-weight: bold;
+    position: absolute;
+    color: #edbed7;
+    top: 100px;
+    left: 40px;
+}
+.flower{
+    height: 250px;
+    width: 250px;
+    background-image: url(9.jpg);   
+    position: relative;
+    top: 430px;
+    right: -180px;
+}
+.a-1{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url(18.jpg); 
+    top: 40px;
+    left: -50px; 
+}
+.a-2{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    background-image: url(19.jpg); 
+    left: 700px;
+    top: -160px;
+}
+.a-3{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url(20.jpg); 
+    top: 180px;
+}
+.a-4{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-image: url(21.jpg); 
+    left: 720px;
+    top: -20px;
+}
+.txt-7{
+    color: #6b7a64;
+    font-size: 30px;
+    top: -120px;
+    left: 420px;
+    font-weight: bold;
+    position: absolute;
+}
+.aaa{
+    width: 0px;
+    height: 50px;
+    background-color: #ffffff;
+    top:-45px;
+    position:absolute;
+}
